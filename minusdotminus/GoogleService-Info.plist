@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCja4c-Nfa5itUBaWGVhcH7G-DWDOlUeo4</string>
+	<string>AIzaSyBLInJK_5jaEivB8sdhOsL8TVcVv5Yo9J8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>357845929435</string>
+	<string>83198966801</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.feyzanurparmaksiz.MeetingAndNoteTakingApp</string>
 	<key>PROJECT_ID</key>
-	<string>MeetingAndNoteTakingApp-1ef56</string>
+	<string>meetingandnoteapp</string>
 	<key>STORAGE_BUCKET</key>
-	<string>MeetingAndNoteTakingApp-1ef56.appspot.com</string>
+	<string>meetingandnoteapp.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:357845929435:ios:89f87c82171b0e3f6d2bfe</string>
+	<string>1:83198966801:ios:bafb5d4fc774e472e485b0</string>
 </dict>
 </plist>

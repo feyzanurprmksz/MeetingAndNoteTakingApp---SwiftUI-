@@ -22,7 +22,9 @@ struct MeetingAndNoteTakingAppApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
+            
             signIn()
+            
         }
     }
 }

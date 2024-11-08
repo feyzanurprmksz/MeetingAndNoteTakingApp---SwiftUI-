@@ -10,6 +10,7 @@ import FirebaseAuth
 
 struct signUp: View {
     
+
     @State private var firstName: String = ""
     @State private var lastName: String = ""
     @State private var username: String = ""
@@ -22,16 +23,21 @@ struct signUp: View {
     @State private var navigateHome = false
     @State private var showPassword: Bool = false
     @State private var showPasswordAgain: Bool = false
+
+
     
     var body: some View {
         NavigationStack {
             VStack(spacing: 8) {
+                    Text("Kayıt Ol")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.gray)
+                        .padding(.bottom, 40)
                 
-                Text("Kayıt Ol")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.gray)
-                    .padding(.bottom, 40)
+               
+                
+                
                 
                 TextField("AD", text: $firstName)
                     .padding(10)
@@ -215,3 +221,4 @@ struct signUp: View {
 #Preview {
     signUp()
 }
+
